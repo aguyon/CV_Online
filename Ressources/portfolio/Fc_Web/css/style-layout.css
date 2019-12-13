@@ -1,0 +1,168 @@
+body{
+	width: 100%
+}
+/*	TOP HEADER
+---------------------------------------------------- */
+.topHeader{
+	background-color: #333333;
+	height: 80px;
+}
+#titre{
+	font-size: 1.8em;
+	color: #737272;
+	text-align: center;
+	margin-top: -87px;
+	margin-left: 300px;
+	position: absolute;
+}
+#titreAuteur{
+	float: right;
+	color: #FFF;
+	font-family: 'Satisfy', cursive;
+	font-size: 1.6em;
+	margin-right: 15px;
+	margin-top: 42px;
+}
+#titreAuteur a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+		/*	Navigation Principal
+		----------------------------------------------------- */
+		.nav{
+			height: 150px;
+			width: 220px;
+			padding-top: 15px;
+			margin-left: -23px;
+		}
+		.nav ul{
+			padding: 0;
+			margin: 0;
+			margin-left: 50px;
+		}
+		.nav ul li{
+			list-style: none;
+			padding: 0px;
+		}
+		.nav ul li a{
+			text-decoration: none;
+			font-size: 1.8em;
+			padding: 4px;
+			display: block;
+			color: inherit;
+			background: transparent;
+			width: 300px;
+			-moz-transition: all .5s; 
+			-webkit-transition: all .5s; 
+			-o-transition: all .5s; 
+			transition: all .5s;
+			line-height: 25px;
+		}
+		.nav ul li a:hover{
+			background: #ABABAB;
+			padding-left: 20px;
+			width: 250px;
+			-moz-transition: all .5s; 
+			-webkit-transition: all .5s; 
+			-o-transition: all .5s; 
+			transition: all .5s;
+		}
+		.fa-home{
+			margin-left: 2px;
+			margin-right: 20px;
+		}
+		.fa-futbol-o{
+			margin-left: 2px;
+			margin-right: 18px;
+		}
+		.fa-desktop{
+			margin-right: 16px;
+		}
+		.fa-eur{
+			margin-left: 5px;
+			margin-right: 24px;
+		}
+		.fa-phone{
+			margin-left: 5px;
+			margin-right: 20px;
+		}
+		/* ------------------------------------------------------------------------ */
+
+.logo img {
+    width: 140px;
+    height: auto;
+    float: right;
+    margin-right: 23px;
+    margin-top: -127px;
+}
+
+.dombesBresse{
+	color: #000;
+	text-decoration: none;
+}
+.dombesBresse:hover{
+	color: #A91A20;
+}
+.dombesBresse:active{
+	color: #A91A20;
+}
+.attignat{
+	text-decoration: none;
+	color: #000;
+}
+.attignat:hover{
+	color: #347C4E;	
+}
+.attignat:active{
+	color: #347C4E;	
+}
+	
+/*	PIED DE PAGE
+---------------------------------------------------- */
+footer{
+	background: #333333;
+	position: absolute;
+	width: 100.4%;
+	height: 120px;
+	text-align: center;
+	font-size: 1.3em;
+	color: #737272;
+	margin-top: 25px;
+	margin-left: -8px;
+}
+#coordonnees{
+	margin-top: 26px;
+}
+#coordonnees a{
+	text-decoration: none;
+	color: #737272;
+	margin-right: 30px;
+}
+#coordonnees a:hover{
+	color: #AAAAAA;
+}
+#coordonnees p{
+	margin-bottom: 10px;
+}
+.footerGauche{
+	float: left;
+	margin-top: -299px;
+	width: 388px;
+	height: auto;
+	z-index: 0;
+	position: relative;
+}
+.footerDroit {
+    float: right;
+    margin-top: -298px;
+    margin-right: -270px;
+    width: 394px;
+    height: auto;
+    z-index: 0;
+    position: relative;
+}
+#author{
+	float: right;
+}
+/* ------------------------------------------------------------------------ */

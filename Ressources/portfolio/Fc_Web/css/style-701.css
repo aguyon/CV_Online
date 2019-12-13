@@ -1,0 +1,279 @@
+@import url("../css/style-layout.css");
+@import url("../css/style-1280.css");
+
+/*	TOP HEADER
+---------------------------------------------------- */
+.topHeader img{
+	width: 180px;
+	height: auto;
+}
+#titreAuteur {
+    font-size: 1.2em;
+    margin-top: 52px;
+}
+#titre {
+    margin-top: -65px;
+    margin-left: 181px;
+    margin-right: 40px;
+}
+#titre h1{
+	font-size: 1em;	
+}
+.logo img{
+	width: 122px;
+	height: auto;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page ACCUEIL
+---------------------------------------------------- */
+.texteAccueil{
+	margin-top: 50px;
+}
+.textAccueil h2{
+	font-size: 1.9em;
+}
+.realisation{
+	display: block;
+	text-align: center;
+}
+.imageDB img{
+	width: 295px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+}
+.imageAttignat img{
+	width: 295px;
+	margin-right: 0px;
+	margin-bottom: -40px;
+}
+.btn{
+	color: #737272;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 45px;
+	margin: 0 auto 2em;
+	max-width: 400px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+.btn:hover{
+	text-decoration: none;
+}
+.btn-1{
+	background: #737272;
+	font-weight: 100;
+	color: #333;
+}
+.btn-1 svg{
+	height: 45px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.btn-1:hover{
+	background: #737272;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page TARIFS
+---------------------------------------------------- */
+.tarifs{
+	background-image: none;
+	text-align: center;
+	margin-top: 50px;
+}
+.tarifs h2{
+	font-size: 1.9em;
+}
+.tarifs h3{
+	font-size: 1.5em;
+}
+.officialWebsite img{
+	margin-top: 0px;
+	width: 320px;
+}
+.description{
+	margin-top: 10px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.description li{
+	margin-bottom: 10px;
+}
+.boutique{
+	margin-top: 0px;
+	background-image: none;
+	text-align: center;
+}
+.boutique h3{
+	font-size: 1.5em;
+}
+.boutiqueClub{
+	margin-top: 30px;
+	margin-left: 0px;
+}
+.boutiqueClub img{
+	margin-top: 0px;
+	width: 320px;
+}
+.descriptionBoutique{
+	margin-top: 10px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.descriptionBoutique li{
+	margin-bottom: 10px;
+}
+.equipement{
+	margin-top: 0px;
+	background-image: none;
+	text-align: center;
+}
+.equipement h3{
+	font-size: 1.5em;
+}
+.equipementClub{
+	margin-top: 30px;
+}
+.equipementClub img{
+	margin-top: 0px;
+	width: 320px;
+}
+.descriptionEquipement{
+	margin-top: 10px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.descriptionEquipement li{
+	margin-bottom: 10px;
+}
+.application{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background-image: none;
+	text-align: center;
+	display: inline;
+}
+.application h3{
+	font-size: 1.5em;
+}
+.applicationClub{
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.applicationClub img{
+	margin-top: 0px;
+	width: 230px;
+}
+.descriptionApplication{
+	margin-top: 10px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 30px;
+}
+.descriptionApplication li{
+	margin-bottom: 10px;
+}
+.fonctionnement h2{
+	font-size: 1.9em;
+}
+.descriptionFonctionnement{
+	display: inline-block;
+}
+.descriptionFonctionnement li{
+	margin-bottom: 10px;
+}
+.communication{
+	margin-top: 25px;
+}
+.communication h2{
+	font-size: 1.9em;
+}
+.contactezNous{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.contactezNous h2{
+	font-size: 1.9em;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page CONTACT
+---------------------------------------------------- */
+.coordonnees{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.coordonnees h2{
+	font-size: 1.9em;
+}
+.contact{
+	margin-top: 50px;
+	margin-left: 20px
+}
+.contact h2{
+	font-size: 1.9em;
+}
+.maps{
+	margin-top: 50px;
+}
+.maps iframe{
+	width: 650px;
+}
+.maps h2{
+	font-size: 1.9em;
+}
+.information a{
+	text-decoration: none;
+	color: inherit;
+}
+.information a:hover{
+	color: #000;
+}
+.fa-phone {
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.fa-envelope {
+    margin-left: 2px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.fa-fax {
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.fa-map-marker {
+    margin-left: 7px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.adresse {
+    margin-left: 42px;
+    margin-right: 20px;
+    margin-bottom: -2px;
+    margin-top: -18px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	PIED DE PAGE
+---------------------------------------------------- */
+footer{
+	height: 142px;
+}
+/* ------------------------------------------------------------------------ */

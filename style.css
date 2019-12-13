@@ -1,6 +1,6 @@
-@import url("./font-awesome/css/font-awesome.min.css");
+@import url("./Ressources/font-awesome/css/font-awesome.min.css");
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url("./bootstrap/css/proxima-nova.css");
+@import url("./Ressources/bootstrap/css/proxima-nova.css");
 
 @keyframes bounceIn {
   0% {
@@ -172,7 +172,7 @@ p {
 	margin-top: 13%;
 }
 #intro {
-	background: #151515 url(./Images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(./Ressources/Images/intro-bg.jpg) no-repeat center bottom;
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;

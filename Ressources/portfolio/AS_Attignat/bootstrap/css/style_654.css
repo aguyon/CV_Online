@@ -1,0 +1,155 @@
+@import url("../../bootstrap/css/style_1386.css");
+
+#top:before{
+	background-image: url('../../Images/ImageDeFond_2.jpg');
+	width: 101.4%;
+	height: 660px;
+}
+
+/*	Section A PROPOS
+==================================================== */
+#about{
+	margin-top: -585px;
+}
+
+
+/*	Section MATCHS
+==================================================== */
+#matchs{
+	background: url(../../Images/ImageDeFond_11.jpg);
+	width: 101%;
+	height: 785px;
+}
+.titreResultat{
+	padding-top: 50px;
+	margin-bottom: 10px;
+}
+.titreMatchs{
+	margin-bottom: 25px;
+}
+.encart1{
+	margin-bottom: -10px;
+}
+.encart2{
+	margin-left: -35px;
+}
+.horaire{
+	width: 115px;
+}	
+.horaire2{
+	width: 115px;
+}
+.button{
+	width: 615px;
+}	
+
+
+/*	Section AS ATTIGNAT
+==================================================== */
+.membresClub{
+	margin-left: 5px;
+	float: none;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+#organigramme{
+	width: 610px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.photoArticle{
+	width: 605px;
+	height: auto;
+}
+
+
+/*	Section EQUIPES
+==================================================== */
+#equipes{
+	min-height: 1550px;
+}
+.articlePhoto{
+	width: 595px;
+	height: auto;
+}
+.articleEquipe{
+	display: table-cell;
+}
+.titreArticle{
+	margin-left: -1px;
+	padding: 12px 5px 0px 5px;
+}
+.aVoir{
+	margin-bottom: 43px;
+}
+.articleAVoir{
+	display: table-cell;
+}
+.titreArticleAVoir {
+    margin-top: -43px;
+    margin-right: 0px;
+    margin-left: 0px;
+	margin-bottom: 20px;
+	padding: 12px 5px 0px 5px;
+}
+
+
+/*	Section GALERIE
+==================================================== */
+#galerie{
+	min-height: 1000px;
+}
+.grid{
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+.grid figure{
+	width: 620px;
+	height: auto;
+}
+.grid figure h2 {
+    margin: -164px;
+    font-size: 1.1em;
+}
+.grid figure p {
+    font-size: 0.6em;
+    margin: 150px 0 0 0;
+}
+figure.effect-bubba {
+    margin-left: auto;
+	margin-right: auto;
+}
+#equipeSeniors3 {
+    margin-left: 0px;
+}
+#equipeVeterans1 {
+    margin-left: 0px;
+}
+
+
+/*	Section SPONSORS
+==================================================== */
+#sponsors{
+	background: url(../../Images/ImageDeFond_17.jpg);
+	width: 101.1%;
+	height: 771px;
+}
+.afficheSponsors{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: -300px;
+}
+#titreSponsors{
+	padding-top: 175px;
+	margin-left: -300px;
+}
+
+
+/*	PIED DE PAGE
+==================================================== */
+footer{
+	height: 149px;
+}
+#coordonnee{
+	padding: 0px 80px;
+}

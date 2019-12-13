@@ -1,0 +1,65 @@
+@import url("../css/style-layout.css");
+@import url("../css/style-1441.css");
+
+/*	TOP HEADER
+---------------------------------------------------- */
+#titreAuteur {
+    font-size: 1.4em;
+    margin-top: 48px;
+}
+#titre {
+    margin-top: -86px;
+    margin-left: 285px;
+    margin-right: 40px;
+}
+#titre h1{
+	font-size: 1.2em;	
+}
+.logo img{
+	width: 122px;
+	height: auto;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page ACCUEIL
+---------------------------------------------------- */
+.texteAccueil{
+	margin-top: 50px;
+}
+.imageDB img {
+    margin-top: 17px;
+    margin-right: 28px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page TARIFS
+---------------------------------------------------- */
+.tarifs{
+	margin-top: 25px;
+}
+.applicationClub{
+	margin-left: 240px;
+}
+.contactezNous{
+	margin-bottom: 185px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page CONTACT
+---------------------------------------------------- */
+.maps{
+	z-index: 1;
+	position: relative;
+}
+.information a{
+	text-decoration: none;
+	color: inherit;
+}
+.information a:hover{
+	color: #000;
+}
+/* ------------------------------------------------------------------------ */
+
+
+
+

@@ -1,0 +1,155 @@
+@import url("../css/style-layout.css");
+@import url("../css/style-1441.css");
+
+/*	TOP HEADER
+---------------------------------------------------- */
+#titreAuteur {
+    font-size: 1.2em;
+    margin-top: 52px;
+}
+#titre {
+    margin-top: -95px;
+    margin-left: 285px;
+    margin-right: 40px;
+}
+#titre h1{
+	font-size: 1em;	
+}
+.logo img{
+	width: 122px;
+	height: auto;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page ACCUEIL
+---------------------------------------------------- */
+.texteAccueil{
+	margin-top: 50px;
+}
+.realisation{
+	display: block;
+	text-align: center;
+}
+.imageDB img{
+	width: 295px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+}
+.imageAttignat img{
+	width: 295px;
+	margin-right: 0px;
+	margin-bottom: -40px;
+}
+.texteAccueil h2{
+	font-size: 1.7em;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page TARIFS
+---------------------------------------------------- */
+.tarifs{
+	background-image: none;
+}
+.officialWebsite img{
+	margin-top: 0px;
+	width: 300px;
+}
+.description{
+	margin-top: 10px;
+}
+.boutique{
+	height: 275px;
+	margin-top: 0px;
+	background-image: none;
+}
+.boutiqueClub {
+    margin-top: -431px;
+    margin-left: 46px;
+}
+.boutiqueClub img{
+	margin-top: -158px;
+	width: 300px;
+}
+.descriptionBoutique{
+	margin-top: 55px;
+	margin-left: 0px;
+}
+.descriptionBoutique li{
+	margin-bottom: 10px;
+}
+.equipement{
+	margin-top: 0px;
+	height: 325px;
+	background-image: none;
+}
+.equipementClub{
+	margin-top: -265px;
+}
+.equipementClub img{
+	margin-top: 0px;
+	width: 300px;
+}
+.descriptionEquipement{
+	margin-top: 10px;
+	margin-left: 0px;
+	display: inherit;
+}
+.descriptionEquipement li{
+	margin-bottom: 10px;
+}
+.application{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background-image: none;
+	display: inline;
+}
+.applicationClub {
+    margin-left: 142px;
+    margin-top: -660px;
+}
+.applicationClub img{
+	margin-top: 0px;
+}
+.descriptionApplication{
+	margin-top: 10px;
+	margin-left: 0px;
+}
+.descriptionApplication li{
+	margin-bottom: 10px;
+}
+.descriptionFonctionnement{
+	display: inline-block;
+}
+.descriptionFonctionnement li{
+	margin-bottom: 10px;
+}
+.communication{
+	margin-top: 25px;
+}
+.contactezNous{
+	margin-top: 25px;
+	margin-bottom: 200px;
+}
+.fonctionnement{
+	margin-top: -210px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page CONTACT
+---------------------------------------------------- */
+.maps{
+	z-index: 1;
+	position: relative;
+}
+.maps iframe{
+	width: 905px;
+}
+.information a{
+	text-decoration: none;
+	color: inherit;
+}
+.information a:hover{
+	color: #000;
+}
+/* ------------------------------------------------------------------------ */
+

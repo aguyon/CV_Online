@@ -1,0 +1,216 @@
+@import url("../../bootstrap/css/style_1386.css");
+
+#top:before{
+	background-image: url('../../Images/ImageDeFond_2.jpg');
+	width: 102.2%;
+	height: 660px;
+}
+#phraseAccroche{
+	font-size: 1.5em;
+}
+
+/*	Section A PROPOS
+==================================================== */
+#about{
+	margin-top: -557px;
+}
+#president{
+	text-align: center;
+	margin-bottom: 25px;
+}
+#president img{
+	float: none;
+}
+h6#adminSite {
+    margin-left: 0px;
+}
+#renseignement{
+	text-align: center;
+}
+#renseignement p{
+	margin-left: 0px;
+}
+
+
+/*	Section MATCHS
+==================================================== */
+#matchs{
+	background: url(../../Images/ImageDeFond_16.jpg);
+	width: 102%;
+	height: 1900px;
+}
+.team{
+	width: 200px;
+}
+.encart1{
+	display: table-caption;
+}
+.teamBackground{
+	width: 200px;
+}
+#score{
+	display: table-caption;
+	padding: 6px 47.5px;
+}
+.date{
+	font-size: 2.5em;
+}
+.navigation{
+	width: 200px;
+	padding: 15px 24px;
+}
+.encart2{
+	display: table-caption;
+	margin-left: 0px;
+}
+.listMatchs{
+	margin-left: -30px;
+}
+.match{
+	margin-bottom: 25px;
+}
+.equipe{
+	width: 200px;
+	height: 65px;
+	margin-bottom: 13px;
+	line-height: 67px;
+	padding-left: 20px;
+    padding-right: 18px;
+}
+.horaire{
+	width: 200px;
+	padding: 18.5px 6px;
+	margin-top: -16px
+}
+.horaire2{
+	width: 200px;
+	padding: 18.5px 6px;
+	margin-top: -16px
+}
+.date{
+	font-size: 2em;
+}
+.button{
+	display: none;
+}
+
+
+/*	Section AS ATTIGNAT
+==================================================== */
+#attignat{
+	min-height: 1600px;
+}
+.membresClub{
+	width: 175px;
+	height: auto;
+	margin-left: 10px;
+	margin-bottom: -10px;
+	float: none;
+}
+#organigramme{
+	height: 205px;
+	margin-bottom: 0px;
+}
+.texteAleatoire{
+	margin-top: 25px;
+}
+
+
+/*	Section EQUIPES
+==================================================== */
+#equipes{
+	min-height: 1550px;
+}
+.articlePhoto{
+	width: 272px;
+	height: auto;
+	margin-bottom: 5px;
+}
+.articleEquipe{
+	display: table-cell;
+}
+.titreArticle{
+	margin-top: -43px;
+    margin-right: 0px;
+    margin-left: 0px;
+	margin-bottom: 20px;
+	padding: 12px 5px 0px 5px;
+}
+.articleAVoir{
+	display: table-cell;
+}
+.titreArticleAVoir {
+    margin-top: -43px;
+    margin-right: 0px;
+    margin-left: 0px;
+	margin-bottom: 20px;
+	padding: 12px 5px 0px 5px;
+}
+
+
+/*	Section GALERIE
+==================================================== */
+#galerie{
+	min-height: 1000px;
+}
+.grid{
+	width: 300px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+.grid figure{
+	width: 300px;
+	height: auto;
+}
+.grid figure h2 {
+    margin: -72px;
+    font-size: 0.8em;
+}
+.grid figure p {
+    font-size: 0.4em;
+    margin: 55px 0 0 0;
+}
+figure.effect-bubba {
+    margin-left: auto;
+	margin-right: auto;
+}
+#equipeSeniors3 {
+    margin-left: 0px;
+}
+#equipeVeterans1 {
+    margin-left: 0px;
+}
+
+
+/*	Section SPONSORS
+==================================================== */
+#sponsors{
+	background: url(../../Images/ImageDeFond_4.jpg);
+	width: 102%;
+	height: 771px;
+}
+.afficheSponsors{
+	width: 285px;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	margin-left: -70px;
+}
+#titreSponsors{
+	padding-top: 175px;
+	margin-left: -100px;
+}
+.photoArticle {
+    width: auto;
+    height: 225px;
+	margin-bottom: -5px;
+}
+
+
+/*	PIED DE PAGE
+==================================================== */
+footer{
+	height: 220px;
+}
+#coordonnee{
+	padding: 0px 20px;
+}

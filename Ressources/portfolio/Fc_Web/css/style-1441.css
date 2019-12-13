@@ -1,0 +1,230 @@
+@import url("../css/style-layout.css");
+
+/*	Page ACCUEIL
+---------------------------------------------------- */
+* {
+	box-sizing: inherit;
+	transition-property: all;
+	transition-duration: .2s;
+	transition-timing-function: ease;
+}
+.btn{
+	color: #737272;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 45px;
+	margin: 0 auto 2em;
+	max-width: 400px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+.btn:hover{
+	text-decoration: none;
+}
+.btn-1{
+	background: #737272;
+	font-weight: 100;
+	color: #333;
+}
+.btn-1 svg{
+	height: 45px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.btn-1:hover{
+	background: #737272;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+.imageAttignat img{
+	width: 340px;
+	height: auto;
+	margin-top: 10px;
+	margin-right: 38px;
+	margin-bottom: 50px;
+}
+.imageDB img{
+	width: 340px;
+	height: auto;
+	margin-top: 10px;
+	margin-right: 38px;
+	margin-bottom: 50px;
+}
+.texteAccueil{
+	margin-top: 30px;
+}
+.realisation{
+	display: inline-flex;
+	z-index: 1;
+	position: relative;
+	margin-bottom: 50px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page TARIFS
+---------------------------------------------------- */
+.tarifs{
+	background: url(../Images/BackgroundSite.jpg) no-repeat right;
+	width: 100%;
+	height: 545px;
+}
+.officialWebsite img{
+	width: 340px;
+	height: auto;
+	margin-top: -130px;
+}
+.description{
+	display: inline-block;
+	margin-top: 50px;
+}
+.description li{
+	margin-bottom: 10px;
+}
+.boutique{
+	background: url(../Images/BackgroundBoutique.jpg) no-repeat left;
+	width: 100%;
+	height: 445px;
+	margin-top: -160px;
+}
+.boutiqueClub{
+	margin-top: 50px;
+	margin-left: 140px;
+}
+.boutiqueClub img{
+	width: 340px;
+	height: auto;
+	margin-top: -167px;
+}
+.descriptionBoutique{
+	display: inline-block;
+	margin-top: 80px;
+}
+.descriptionBoutique li{
+	margin-bottom: 10px;
+}
+.equipement{
+	background: url(../Images/BackgroundEquipement.jpg) no-repeat right;
+	width: 100%;
+	height: 436px;
+	margin-top: -125px;
+}
+.equipementClub{
+	margin-top: 110px;
+}
+.equipementClub img{
+	width: 400px;
+	height: auto;
+	margin-top: -50px;
+}
+.descriptionEquipement{
+	display: inline-block;
+	margin-top: 55px;
+}
+.descriptionEquipement li{
+	margin-bottom: 10px;
+}
+.application{
+	background: url(../Images/BackgroundApplication.png) no-repeat left;
+	width: 100%;
+	height: 450px;
+	margin-top: -140px;
+	margin-bottom: 50px;
+}
+.applicationClub{
+	margin-left: 255px;
+	margin-top: 80px;
+}
+.applicationClub img{
+	width: 217px;
+	height: auto;
+	margin-top: -45px;
+}
+.descriptionApplication{
+	display: inline-block;
+	margin-top: 70px;
+}
+.descriptionApplication li{
+	margin-bottom: 10px;
+}
+.descriptionFonctionnement{
+	display: inline-block;
+}
+.descriptionFonctionnement li{
+	margin-bottom: 10px;
+}
+.communication{
+	margin-top: 25px;
+}
+.contactezNous{
+	margin-top: 25px;
+	margin-bottom: 200px;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	Page CONTACT
+---------------------------------------------------- */
+.coordonnees{
+	margin-top: 50px;
+}
+.information a{
+	text-decoration: none;
+}
+.information a:hover{
+	text-decoration: none;
+	color: #000;
+}
+.information .fa-phone{
+	margin-left: 5px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.fa-envelope{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.fa-fax{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.fa-map-marker{
+	margin-right: 28px;
+	margin-left: 5px;
+}
+.adresse {
+    margin-top: -7px;
+    margin-left: 44px;
+    margin-bottom: -10px;
+}
+.contact{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.maps{
+	margin-top: 30px;
+	margin-bottom: 70px;
+	z-index: 1;
+	position: relative;
+}
+.information a{
+	text-decoration: none;
+	color: inherit;
+}
+.information a:hover{
+	color: #000;
+	text-decoration: none;
+}
+/* ------------------------------------------------------------------------ */
+
+/*	PIED DE PAGE
+---------------------------------------------------- */
+footer{
+	height: 130px;
+}
+/* ------------------------------------------------------------------------ */

@@ -1,0 +1,700 @@
+@import url("../../font-awesome/css/font-awesome.min.css");
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@font-face{font-weight:normal;font-style:normal;font-family:'opensans-bold';src:url('../fonts/feathericons/feathericons.eot?-8is7zf');src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg')}
+*, *:after, *:before {box-sizing: border-box;}
+.grid{position:relative;margin:0 auto;padding:1em 0 4em;width:620px;list-style:none;text-align:center}
+.grid figure{position:relative;float:left;overflow:hidden;margin:10px 1%;width:700px;height:auto;margin-bottom:30px;background:#3085a3;text-align:center;cursor:pointer}
+.grid figure img{position:relative;display:block;min-height:100%;max-width:100%;opacity:.8}
+.grid figure figcaption{padding:2em;color:#fff;text-transform:uppercase;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.grid figure figcaption::before,.grid figure figcaption::after{pointer-events:none}
+.grid figure figcaption,.grid figure figcaption>a{position:absolute;top:0;left:0;width:100%;height:100%}
+.grid figure figcaption>a{z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0}
+.grid figure h2{word-spacing:-0.15em;font-weight:300}
+.grid figure h2 span{font-weight:800}
+.grid figure h2{margin:-174px;}
+.grid figure p{letter-spacing:1px;font-size:68.5%;margin:158px;}
+
+
+/*	Principal
+==================================================== */
+html{
+	width: 100%;
+}
+body{
+	background-color: #FFFFFF;
+}
+h1{
+	font-family: 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+}
+h2{
+	font-family: 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+}
+h3{
+	font-family: 'poppins-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+}
+h4{
+	font-family: 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+}
+h5{
+	font-family: 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+}
+h6{
+	font-family: 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+}
+#top:before{
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	
+	z-index: -1;
+	display: table;
+	position: relative;
+	background-image: url('../../Images/ImageDeFond_3.jpg');
+	background-size: cover;
+	margin-left: -10px;
+	width: 100.5%;
+	height: 660px;
+	
+	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+	-o-filter: blur(4px);
+	-ms-filter: blur(4px);
+	filter: blur(4px);
+}
+#top{
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+#logo{
+	margin-top: -580px;
+}
+#phraseAccroche{
+	color: #000000;
+	margin-top: 20px;
+	font-size: 2.5em;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	 
+	animation: bounceIn 5s;
+}
+
+		/*	Flêche pour remonter en haut
+		---------------------------------------------------- */
+		#go-top{
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background-color: #347C4E;
+			width: 50px;
+			height: 50px;
+			display: block;
+			text-decoration: none;
+			-webkit-border-radius: 35px;
+			-moz-border-radius: 35px;
+			border-radius: 35px;
+			display: none;
+		}
+		#go-top:hover{
+			color: #333333;
+		}
+		#go-top i{
+			color: #FFFFFF;
+			margin: 0;
+			position: relative;
+			left: 16px;
+			top: 13px;
+			font-size: 19px;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}		
+		#go-top:hover i{
+			color: #FFFFFF;
+			top: 5px;
+		}
+		/* ------------------------------------------------------------------------ */
+
+/*	Navigation Principal
+==================================================== */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   border-radius: 100%;
+   
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+.navbar-inverse {
+    background-color: #333333;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #347C4E;
+    background-color: transparent;
+}
+ul.nav {
+	min-height: 48px;
+	width: auto;
+	text-align: center;	
+}
+ul.nav li.current a {
+    color: #FFFFFF;
+}
+ul.nav li {
+	float: none;
+	position: relative;
+	list-style: none;
+	height: 48px;
+	display: inline-block;
+	font: 1.15em 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+}
+
+		/* 	Sous Menu 
+		---------------------------------------------------- */
+		.nav-tabs{
+			position: relative;
+			margin: 0 auto;
+			text-align: center;
+			margin-bottom: 40px;
+			border-bottom: 0px;
+		}
+		.nav-tabs li{
+			float: none;
+			padding-top: 14px;
+			position: relative;
+		}
+		.nav-tabs li.active a{
+			color: #FFFFFF;
+			background-color: #333333;
+		}
+		.nav-tabs li:first-child a{
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+		.nav-tabs li:last-child a{
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+		.nav-tabs li a{
+			position: relative;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			display: block;
+			width: 220px;
+			color: #FFFFFF;
+			text-transform: none;
+			letter-spacing: 1.5px;
+			font-size: 0.8em;
+			font-weight: bold;
+			font-family: 'PT Serif Caption', serif;
+			background-color: #347C4E;
+			text-decoration: none;
+		}
+		.nav-tabs li a:hover{
+			color: #FFFFFF;
+			background: #333333;
+		}
+		/* ------------------------------------------------------------------------ */
+/* ======================================================================== */
+
+/*	Section A PROPOS
+==================================================== */
+#about {
+	margin-top: -455px;
+	background: #FFFFFF;
+	color: black;
+	min-height: 275px;
+}
+#about .section-about {
+	margin-bottom: 2rem;
+}
+.section-about {
+	max-width: 265px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 3.6rem;
+	position: relative;
+}
+#aPropos{
+	margin-top: 760px;
+}
+#renseignement p{
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3em;
+	margin-left: 10px;
+}
+#president img{
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+	width: 270px;
+	height: 160px;
+}
+h6#adminSite{
+	margin-left: 10px;
+}
+p#admin{
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	margin-left: 10px;
+}
+/* ======================================================================== */
+
+/*	Section MATCHS
+==================================================== */
+#matchs{
+	background: url(../../Images/ImageDeFond_13.jpg);
+	margin-left: -10px;
+	width: 100.5%;
+	height: 500px;
+}
+.titreResultat{
+	font-family: 'poppins-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 40px;
+}
+.titreMatchs{
+	font-family: 'poppins-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;	
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 55px;
+}
+
+		/*	Derniers Résultats
+		---------------------------------------------------- */
+		.encart1{
+			position: relative;
+			display: inline-flex;
+		}
+		.team{
+			display: inline-block;
+			width: 250px;
+			height: 256px;
+		}
+		.teamBackground{
+			background-color: #FFFFFF;
+			background-size: cover;
+			width: 250px;
+			height: 156px;
+		}
+		.teamLogo{
+			width: auto;
+			height: 130px;
+			margin-top: 13px;
+		}
+		.detailMatchs{
+			display: inline-block;
+			width: 120px;
+		}
+		.categorie{
+			padding: 16px 10px;
+			height: 50px;
+			text-align: center;
+			background-color: #6BAB82;
+		}
+		.categorie h4{
+			margin: 0;
+			color: #fff;
+			font-size: 0.7em;
+			font-family: 'opensans-bold', sans-serif;
+			text-transform: uppercase;
+		}
+		#score{
+			padding: 48px 8px;
+			font-size: 42px;
+			text-align: center;
+			font-weight: 700;
+			color: #999;
+			background-color: #347C4E;	
+		}
+		#color{
+			color: #FFFFFF;
+			margin-left: 2px;
+		}
+		.day{
+			padding: 14.5px 16px;
+			height: 46px;
+			text-align: center;
+			font-size: 0.4em;
+			background-color: #6BAB82;
+		}
+		#date{
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 2.2em;
+			font-family: 'PT Serif Caption', serif;
+			padding-top: 5px;
+		}
+		.content{
+			position: relative;
+			margin: 0;
+		}
+		.nomEquipes{
+			padding: 12px 10px;
+			height: 50px;
+			text-align: center;
+			color: #fff;
+			background-color: #347C4E;
+			font-family: 'PT Serif Caption', serif;
+			font-size: 1.4em;
+			text-transform: uppercase;
+		}
+		.navigation{
+			padding: 13px 24px;
+			float: left;
+			width: 250px;
+			color: #FFFFFF;
+			background-color: #347C4E;
+			font-family: 'PT Serif Caption', serif;
+			font-size: 1em;
+			font-weight: normal;
+			text-transform: none;
+			cursor: pointer;
+		}
+		.navigation:hover{
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		/* ------------------------------------------------------------------------ */
+
+		/*	Matchs Suivant
+		---------------------------------------------------- */
+		.encart2{
+			display: flex;
+			margin-left: -35px;
+		}
+		.listMatchs{
+			
+		}
+		.match{
+			display: inline-block;
+			width: 100%;
+			list-style: none;
+			margin-top: -29px;
+		}
+		.equipe{
+			padding: 0 24px;
+			display: inline-block;
+			width: 250px;
+			height: 65px;
+			line-height: 50px;
+			
+			background: -moz-linear-gradient(top, #ffffff 0%, #fbfbfb 50%, #f8f8f8 100%);
+			background: -webkit-linear-gradient(top, #ffffff 0%, #fbfbfb 50%, #f8f8f8 100%);
+			background: -o-linear-gradient(top, #ffffff 0%, #fbfbfb 50%, #f8f8f8 100%);
+			background: -ms-linear-gradient(top, #ffffff 0%, #fbfbfb 50%, #f8f8f8 100%);
+			background: linear-gradient(to bottom, #ffffff 0%, #fbfbfb 50%, #f8f8f8 100%);
+		}
+		.horaire{
+			padding: 18.5px 16px;
+			display: inline-block;
+			width: 150px;
+			height: 50px;
+			text-align: center;
+			font-size: 0.3em;
+			background-color: #347C4E;
+			margin: -4px;
+		}
+		.horaire2{
+			padding: 18.5px 16px;
+			display: inline-block;
+			width: 150px;
+			height: 50px;
+			text-align: center;
+			font-size: 0.3em;
+			background-color: #6BAB82;
+			margin: -4px;
+		}
+		.date{
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 2.5em;
+			font-family: 'PT Serif Caption', serif;
+			padding-top: 5px;
+		}
+		.adversaire{
+			margin-right: 15px;
+			width: 33px;
+			height: 33px;
+		}
+		.nomAdversaire{
+			padding: 11px 10px;
+			height: 50px;
+			text-align: center;
+			color: #000000;
+			font-family: 'PT Serif Caption', serif;
+			font-size: 1em;
+		}
+		.button{
+			padding: 23px 24px;
+			width: 650px;
+			color: #FFFFFF;
+			background-color: #347C4E;
+			display: inline-block;
+			margin-top: -15px;
+		}
+		/* ------------------------------------------------------------------------ */
+/* ======================================================================== */
+
+/*	Section AS ATTIGNAT
+==================================================== */
+#attignat{
+	min-height: 900px;
+	margin-top: -21px;
+}
+#organigramme{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.membresClub{
+	margin-top: 25px;
+}
+.photoArticle{
+	width: 650px;
+	height: 400px;
+	margin-bottom: 30px;
+}
+/* ======================================================================== */
+
+/*	Section LES EQUIPES
+==================================================== */
+#equipes{
+	background: #E6F9EE !important;
+	min-height: 2880px;
+	margin-top: -21px;
+}
+.texteAleatoire{
+	font-family: 'PT Serif Caption', serif;
+	text-transform: none;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding-left: 60px;
+    padding-right: 60px;
+	margin-bottom: 50px;
+}
+.entraineur{
+	width: 245px;
+	height: 150px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+.articlePhoto{
+	width: 650px;
+	height: 400px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.aVoir{
+	width: 100px;
+	height: 80px;
+	margin-bottom: 50px;
+}
+.titreArticle{
+	height: 80px;
+	margin-right: 10px;
+	margin-left: -4px;
+	border: solid #333333;
+	border-width: 5px 5px 5px 10px;
+	padding: 12px 5px 0px 5px;
+}
+.titreArticleAVoir{
+	height: 80px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid #333333;
+    border-width: 5px 5px 5px 10px;
+	padding: 12px 5px 0px 5px;
+}
+.articleEquipe{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: -25px;
+}
+.articleAVoir{
+	display: inline-flex;
+	margin-top: 20px;
+}
+/* ======================================================================== */
+
+/*	Section GALERIE
+==================================================== */
+#galerie{
+	min-height: 1170px;
+}
+
+figure.effect-bubba{background-color:#347C4E;margin-left:50px;}
+	figure.effect-bubba img{opacity:.7;-webkit-transition:opacity .35s;transition:opacity .35s;margin-left:auto;margin-right:auto;}
+	figure.effect-bubba:hover img{opacity:.4}
+	figure.effect-bubba figcaption::before,figure.effect-bubba figcaption::after{position:absolute;top:30px;right:30px;bottom:30px;left:30px;content:'';opacity:0;-webkit-transition:opacity .35s,-webkit-transform .35s;transition:opacity .35s,transform .35s}
+	figure.effect-bubba figcaption::before{border-top:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:scale(0,1);transform:scale(0,1)}
+	figure.effect-bubba figcaption::after{border-right:1px solid #fff;border-left:1px solid #fff;-webkit-transform:scale(1,0);transform:scale(1,0)}
+	figure.effect-bubba h2{padding-top:30%;-webkit-transition:-webkit-transform .35s;transition:transform .35s;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+	figure.effect-bubba p{padding:20px 2.5em;opacity:0;-webkit-transition:opacity .35s,-webkit-transform .35s;transition:opacity .35s,transform .35s;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}
+	figure.effect-bubba:hover figcaption::before,figure.effect-bubba:hover figcaption::after{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+	figure.effect-bubba:hover h2,figure.effect-bubba:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+
+.grid{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.grid figure{
+	width: 630px;
+	height: auto;
+	float: none;
+}
+.grid figure h2 {
+    margin: -170px;
+    font-size: 1.1em;
+}
+.grid figure p {
+    font-size: 0.6em;
+    margin: 155px 0 0 0;
+}
+figure.effect-bubba {
+	margin-left: auto;
+    margin-right: auto;
+}
+#equipeSeniors3 {
+    margin-left: 0px;
+}
+#equipeVeterans1 {
+    margin-left: 0px;
+}
+/* ======================================================================== */
+
+/*	Section SPONSORS
+==================================================== */
+
+#sponsors{
+	background: url(../../Images/ImageDeFond_5.jpg);
+	margin-left: -10px;
+	width: 100.5%;
+	height: 793px;
+	margin-top: -21px;
+}
+.section-sponsors{
+	margin-left: 60px;
+}
+.afficheSponsors{
+	margin-bottom: 40px;
+}
+#titreSponsors{
+	font-size: 1.8em;
+	margin-top: 150px;
+}
+/* ======================================================================== */
+
+/*	PIED DE PAGE
+==================================================== */
+footer{
+	background: #333333;
+	bottom: 0;
+	width: 100%;
+	height: 126px;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.2em;
+	color: #5D5D5D;
+}
+footer a{
+	text-decoration: none;
+	color: #5D5D5D;
+}
+footer a:hover{
+	color: white;
+}
+#logoFacebook{
+	width: 35px;
+	height: 35x;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#logoFFF{
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#logoLFA{
+	width: 38px;
+	height: 38px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+/* ======================================================================== */
+
+
+
+
+
+
+
+
+
+
