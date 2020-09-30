@@ -85,13 +85,13 @@ $(document).ready(function(){
 jQuery(function($) {
 	$('.typist')
 		.typist({
-			speed: 10
+			speed: 15
 		})
         .typistPause(1500)
 		.typistPause(2000) // 2 sec
 		.typistAdd('Développeur Web et Mobile FrontEnd')
 		.typistPause(1000)
-		.typistRemove(15)
+		.typistRemove(34)
 		.typistAdd('Bienvenue sur mon Portfolio !')
 		.typistStop();
 });
