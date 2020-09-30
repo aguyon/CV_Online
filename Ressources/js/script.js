@@ -89,7 +89,7 @@ jQuery(function($) {
 		})
         .typistPause(1500)
 		.typistPause(2000) // 2 sec
-		.typistAdd('Développeur Web')
+		.typistAdd('Développeur Web et Mobile FrontEnd')
 		.typistPause(1000)
 		.typistRemove(15)
 		.typistAdd('Bienvenue sur mon Portfolio !')
